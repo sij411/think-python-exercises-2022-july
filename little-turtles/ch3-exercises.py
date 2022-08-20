@@ -37,3 +37,49 @@ product = 1
 for g in xs:
     product *= g
 print(product)
+
+
+#6 
+
+import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+for i in range(3):
+    alex.forward(80)
+    alex.left(120)
+    
+alex.color("orchid")
+
+for i in range(4):
+    alex.forward(50)
+    alex.left(90)
+
+alex.color("red")
+
+for i in range(6):
+    alex.forward(50)
+    alex.left(60)
+    
+alex.color("Royalblue")
+
+for i in range(8):
+    alex.forward(50)
+    alex.left(45)
+
+alex.color("HotPink")
+
+#7
+for i in [160, -43, 270, -97, -43, 200, -940, 17, -86]:
+    alex.forward(100)
+    alex.left(i)  
+    
+#11
+alex.color("green")
+turtle.position()
+for i in range(5):
+    alex.forward(60)            
+    alex.left(30)
+        
+wn.mainloop()
