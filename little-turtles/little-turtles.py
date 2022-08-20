@@ -5,9 +5,9 @@ import turtle
 wn = turtle.Screen()
 alex = turtle.Turtle()
 
-for i in range(4):
-    alex.forward(50)
-    alex.left(90)
+alex.penup()
+alex.forward(100)
+alex.pendown()
 
 wn.mainloop()
 # This program didn't work in this VSC, so I performed it on the IDLE python..It was so uncomfortable!
