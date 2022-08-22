@@ -75,11 +75,6 @@ for i in [160, -43, 270, -97, -43, 200, -940, 17, -86]:
     alex.forward(100)
     alex.left(i)  
     
-#11
-alex.color("green")
-turtle.position()
-for i in range(5):
-    alex.forward(60)            
-    alex.left(30)
+
         
 wn.mainloop()
